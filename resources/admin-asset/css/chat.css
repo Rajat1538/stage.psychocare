@@ -1,0 +1,322 @@
+.chat-text-box__other.d-flex {
+  display: none !important;
+}
+.incoming-chat .chat-text-box__subtitle {
+  border-radius: 15px 15px 15px 0px;
+}
+.chat-body .chat-header {
+  background: #503e9d;
+  height: unset;
+  padding: 20px 10px;
+}
+.chat-body .chat-header .media h5 {
+  font-size: 18px;
+  /* font-family: "montserratsemibold"; */
+  color: #ffffff;
+}
+.incoming-chat .chat-text-box__subtitle {
+  border-radius: 15px 15px 15px 0px;
+  background: #d9d3f5;
+}
+.chat-text-box__subtitle p {
+  font-size: 16px;
+  color: #000000;
+}
+.btn-send:hover {
+  background: #503e9d;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+.btn-send {
+  background: #503e9d;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+.chat-type-text__write {
+  height: 50px;
+}
+.prod-in-message {
+  background: #f4f4f4;
+  border-radius: 10px;
+  width: 308px;
+  padding: 5px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.prod-in-message-img {
+  max-width: 40px;
+  margin-right: 16px;
+}
+.prod-in-message-img img {
+  border-radius: 6px;
+  width: 100%;
+}
+.prod-in-message p {
+  font-size: 16px;
+  color: #000000;
+  line-height: 16px;
+  margin: 0;
+}
+
+.user-list ul li a {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+.user-list ul li a:hover {
+  box-shadow: 0px 15px 50px #9299b833;
+}
+.user-image-main {
+  width: 55px;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 15px;
+}
+.user-image {
+    position: relative;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    border-radius: 50%;
+    background: #d9d3f5;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    /*font-family: "montserratsemibold";*/
+    color: #503e9d;
+    text-transform: uppercase;
+}
+.user-image img {
+  width: 55px;
+  height: 55px;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.notification-badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background-color: #f15d35;
+  color: #fff;
+  width: 22px;
+  text-align: center;
+  border-radius: 50%;
+  height: 22px;
+  font-size: 12px;
+  border: 2px #fff solid;
+  font-weight: bold;
+}
+.user-choice-product {
+  display: flex;
+  flex: 1;
+}
+.prod-arrow {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.prod-name {
+  background: #f4f4f4;
+  color: #323232;
+  padding: 0px 7px;
+  border-radius: 6px;
+  margin-top: 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 12px;
+  color: #323232;
+}
+
+.message-line-unread {
+  font-style: normal;
+  font-size: 14px;
+  color: #454545;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.message-line-read {
+  font-style: normal;
+  font-size: 14px;
+  color: #454545;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.chat-wrapper {
+  height: 100%;
+  overflow: hidden;
+}
+.search-body {
+  flex: 1;
+  width: 100%;
+  overflow-y: auto;
+  height: 555px;
+  overflow: hidden auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+.user-chat-time {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  color: #6f6f6f;
+  opacity: 0.7;
+}
+.user-info .user-name {
+  font-size: 16px;
+  color: #454545;
+  margin: 0 !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding-right: 5px;
+}
+.chat-user-img img {
+  width: 100%;
+}
+.chat-user-img {
+  width: 35px;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 15px;
+  border-radius: 50%;
+  background: #d9d3f5;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.chat-user-img span{
+  font-size: 15px;    
+  /*font-family: "montserratsemibold";*/
+  color: #503e9d;
+  text-transform: uppercase;
+}
+.chat-user-img img {
+  width: 35px;
+  height: 35px;
+}
+.chat-area-admin {
+  justify-content: center;
+}
+.chat-body .chat-header {
+  justify-content:flex-start;  
+}
+.chat-back{
+  margin-right: 10px;
+  color: #fff;
+  display: none;
+  font-size: 16px;
+}
+.p-no-fixed {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  margin: 0;
+}
+.p-no-listing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prayer-lst-item {
+  text-align: center;
+}
+.round-message {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: rgba(241, 93, 53, 0.6);
+  display: inline-block;
+  position: relative;
+}
+.round-message img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.prayer-lst-item span {
+  /*font-family: "montserratsemibold";*/
+  font-size: 25px;
+  display: block;
+}
+.prayer-lst-item a {
+  font-size: 18px;
+  color: #503e9d;
+  /*font-family: "montserratsemibold";*/
+  transition: 0.5s ease-in-out;
+}
+@media only screen and (max-width: 991px){
+  .sidebar-group .left-sidebar-wrap {
+    width: 300px;
+    margin-right: 10px;
+  }
+  .chat-area-admin {
+    flex-wrap: nowrap;
+  }
+}
+@media only screen and (max-width: 768px){
+  .chat-sidebar {
+    width: 100%;
+  }
+  .chat-content.chat-conversations-main {
+    width: 100%;
+  }
+  .chat {
+    padding-right: unset;
+    padding: 0;
+  }
+  .sidebar-group .left-sidebar-wrap {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .chat-area-admin {
+    flex-wrap: wrap
+  }
+  .search-body {
+    height: 450px;
+  }
+  .chat-text-box__subtitle p {
+    font-size: 14px;
+  }
+  .chat-back{
+    display: block;
+  }
+}
+@media only screen and (max-width: 575px){
+  .round-message {
+    width: 90px;
+    height: 90px;
+  }
+  .round-message img {
+    max-width: 60px;
+  }
+  .prayer-lst-item a {
+    font-size: 15px;
+  }
+  .prayer-lst-item span {
+    font-size: 18px;
+  }
+}
